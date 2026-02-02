@@ -1,0 +1,43 @@
+@import url("../vendor/normalize.css");
+@import url("./fonts.css");
+
+* {
+  outline: 1px solid red;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.header__content-container {
+  width: 793px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__title {
+  font-size: 72px;
+  font-family: "ArchivoBlack", "Arial", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.header__subheading {
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 18px;
+  color: #ffffff85;
+  margin-top: 0;
+}
+
+.header__image {
+  width: 387px;
+  height: 500px;
+}
