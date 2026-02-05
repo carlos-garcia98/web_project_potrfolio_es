@@ -2,12 +2,26 @@
   font-family: "ArchivoBlack";
   src: url("../fonts/ArchivoBlack-Regular.woff2"), format("woff2");
 
-  font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "OpenSans";
   src: url("../fonts/OpenSans-Regular"), format("woff2");
 
-  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-SemiBold.woff2"), format("woff2");
+
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Opensans";
+  src: url("../fonts/OpenSans-Bold.woff2"), format("woff2");
+
+  font-weight: 700;
 }
