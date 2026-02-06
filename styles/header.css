@@ -1,11 +1,3 @@
-@import url("../vendor/normalize.css");
-@import url("./fonts.css");
-
-body {
-  background-color: #111;
-  color: #fff;
-}
-
 .header {
   width: 100%;
   display: flex;
