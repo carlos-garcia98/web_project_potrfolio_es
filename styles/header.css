@@ -12,12 +12,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 120px;
 }
 
 .header__title {
   font-size: 72px;
   font-family: "ArchivoBlack", "Arial", sans-serif;
   text-transform: uppercase;
+  font-weight: 400;
   margin-bottom: 5px;
 }
 
@@ -61,6 +63,7 @@
 
 .header__image-container {
   position: relative;
+  margin-right: 120px;
 }
 
 .header__image {

@@ -1,0 +1,95 @@
+.main-content {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.main-content__title {
+  font-family: "ArchivoBlack", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.main-content__logos {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin-bottom: 75px;
+}
+
+.logo {
+  width: 50px;
+  aspect-ratio: 1 / 1;
+}
+
+.main-content__projects-container {
+  display: flex;
+  gap: 40px;
+}
+
+.project-card {
+  width: 590px;
+  height: 670px;
+  flex: 1;
+  background-color: #1c1c1c;
+}
+
+.project-card__project-information {
+  margin: 20px;
+}
+
+.project-card__title {
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.project-card__description {
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.project-card__links {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.project-card__link {
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff94;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.project-card__link--share {
+  color: #6d6dff;
+}
+
+.project-card__list-item--share::before {
+  content: "";
+  display: inline-block;
+  margin: 0 5px;
+  width: 20px;
+  aspect-ratio: 1 / 1;
+  background-color: #6d6dff;
+  -webkit-mask: url("../images/share.svg") no-repeat center / contain;
+  mask: url("../images/share.svg") no-repeat center / contain;
+}
+
+.project-card__list-item--github::before {
+  content: "";
+  display: inline-block;
+  margin: 0 5px;
+  width: 20px;
+  aspect-ratio: 1 / 1;
+  background-color: #ffffff94;
+  -webkit-mask: url("../images/github_logo.svg") no-repeat center / contain;
+  mask: url("../images/github_logo.svg") no-repeat center / contain;
+}
