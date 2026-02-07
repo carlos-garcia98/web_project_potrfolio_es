@@ -34,6 +34,8 @@
   height: 670px;
   flex: 1;
   background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card__project-information {
@@ -50,12 +52,13 @@
   font-family: "OpenSans", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 .project-card__links {
   display: flex;
   gap: 20px;
-  padding: 0;
+  padding: 10px 0;
   list-style: none;
 }
 
