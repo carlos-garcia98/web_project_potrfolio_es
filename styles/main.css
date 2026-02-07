@@ -36,6 +36,8 @@
   background-color: #1c1c1c;
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 10;
 }
 
 .project-card__project-information {
